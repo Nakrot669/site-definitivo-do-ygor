@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Para que o fundo não se mova com o rolar da página */
+}
+
+/* Fundo específico para cada página */
+.home-bg {
+    background-image: url('https://uiuiui.in/uploads/posts/2022-11/2750280010_preview_11.gif');
+}
+
+.about-bg {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29v72xl/AVvXsEjtPAjMMSt9YjRRmLirPUZELMCla0NtblwY35zpE1sv82EbVR0-m0R1Hr3w9-1cTt7tggdYFp5a9llbTl80epCwNKDbao1KmxhxpY-Jt-FLrz7hACojVrXONFuLzfn1aymaZv4U0NszKHM2/s640/LUFFY+GTA+SA.gif');
+}
+
+.contact-bg {
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1035211586490736487/EBA340576B207B82850B388EBA52C9BBB422A1CF/?imw=1024&imh=621&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+}
+
+.portfolio-bg {
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/03/nezuko-glowing-eyes-demon-slayer-gif-desktop-wallpaper-preview.gif');
+}
+
+header {
+    background-color: rgba(220, 20, 60, 0.267); /* Vermelho Carmesim com mais opacidade */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.slogan {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: rgba(106, 13, 173, 0.288); /* Roxo Neon com mais opacidade */
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.267); /* Fundo branco semitransparente para contraste */
+    border-radius: 8px;
+    color: #333; /* Texto em cor escura para legibilidade */
+}
+
+button, .button {
+    background-color: #DC143C; /* Vermelho Carmesim */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+button:hover, .button:hover {
+    background-color: #a11b1b67; /* Vermelho mais escuro para o hover */
+}
+
+footer {
+    background-color: rgba(106, 13, 173, 0.295); /* Roxo Neon com mais opacidade */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
